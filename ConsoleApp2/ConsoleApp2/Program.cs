@@ -25,6 +25,12 @@ namespace ConsoleApp2
 
             foreach (var a in nama)
                 Console.WriteLine(a); Console.ReadLine();
+
+            nama.Remove("galih");
+            nama.RemoveAt(0);
+
+            foreach (var a in nama)
+                Console.WriteLine(a); Console.ReadLine();
         }
     }
 }
