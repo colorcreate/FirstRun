@@ -19,18 +19,11 @@ namespace ConsoleApp2
             foreach (var a in nama)
                 Console.WriteLine(a);Console.ReadLine();
 
-            Console.WriteLine(nama.IndexOf("kukuh"));
+            nama.Sort();
 
-            nama.Insert(1, "wahyu");
-
-            foreach (var a in nama)
+            foreach(var a in nama)
                 Console.WriteLine(a); Console.ReadLine();
 
-            nama.Remove("galih");
-            nama.RemoveAt(0);
-
-            foreach (var a in nama)
-                Console.WriteLine(a); Console.ReadLine();
         }
     }
 }
